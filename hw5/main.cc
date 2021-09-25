@@ -5,7 +5,7 @@ int main(){
 
     // Set the floating-point precision to "4" lower.
     std::cout.setf(std::ios::fixed);
-    std::cout.precision(4);
+    std::cout.precision(3);
     
     Tester* tt = new Tester();
 
